@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	margin: 0;
+}
+
+body{
+	background-color: black;
+}
+
+header{
+	display: block;
+	position: fixed;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	background-color: black;
+	height: 69px;
+	z-index: 10;
+}
+header .logo, header ul, li{
+	display: inline-block;
+}
+.logo{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.logo img{
+	height: 50px;
+}
+
+ul{
+	float: right;
+}
+li{
+	margin: 25px 20px;
+}
+.hero{
+	display: block;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	height: 700px;
+	width: 90%;
+	margin: auto;
+}
+#mission{
+	background-color: black;
+	width: 100%;
+	position: relative;
+	top: 50%;
+	padding: 20px 0;
+}
+.tea .text{
+	margin-bottom: 20px;
+}
+.tea .img{
+	height: 200px;
+	width: 300px;
+	background-position: center;
+	background-size: cover;
+}
+.berry .img{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg")
+}
+.rum .img{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg")
+}
+
+.donuts .img{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg");
+}
+.ave .img{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
+}
+.bedford .img{
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg')
+}
+.tea .block{
+	height: 300px;
+	width: 300px;
+	margin: auto;
+}
+.grid{
+	display: flex;
+	width: 90%;
+	justify-content: center;
+	flex-wrap: wrap;	
+	margin: auto;
+}
+#locations{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	background-size: cover;
+	width: 90%;
+	margin: auto;
+	
+}
+#locations .text{
+	position: relative;
+	top: 30px;
+}
+.locations{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 50px 0;
+}
+.locations .block{
+	width: 300px;
+	background-color: black;
+	margin: 15px 40px;
+}
+.block p, .block h4{
+	margin: 20px;
+}
+footer{
+	height: 200px;
+}
+footer h4,
+footer h5{
+	margin: 30px;
+}
+.copyright{
+	text-align: left;
+	margin: 20px;
+}
+section{
+	margin-top: 20px;
+}
